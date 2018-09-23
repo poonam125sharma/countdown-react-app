@@ -1,0 +1,68 @@
+.App {
+    text-align: center;
+    font-size: 35px;
+    /* margin-top: 20%; */
+    font-family: 'Lato',sans-serif;
+}
+.App-title {
+    font-size: 50px;
+    background: #204056;
+    color: #ffeaea;
+    padding: 50px;
+}
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+    display: inline;
+    margin: 10px;
+}
+.Deadline-input {
+    font-size: 25px;
+    margin: 5px;
+}
+.card {
+    background-color: #fb697a;
+    border: 1px solid #fb697a;
+}
+.card-header {
+    background-color: #fa4359;
+    border-bottom: 1px solid #fa4359;
+}
+.card-footer {
+    border: none;
+    background-color: transparent;
+}
+.form-inline {
+    justify-content: center;
+}
+input {
+    border: none !important;
+    padding: 0px 20px !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+input:focus {
+    border:none !important;
+    border-bottom: #fff 1px solid !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+input::placeholder {
+    color: #fff !important;
+    font-family: 'Lato',sans-serif !important;
+}
+.App-content {
+    margin: 100px auto;
+    width: fit-content;
+    color: #fff;
+}
+.btn {
+    color: #000;
+    background-color: #ffc740;
+    border-color: #ffc740;
+    padding: 8px 30px;
+}
+.btn:hover, .btn:focus, .btn-active {
+    color: #000;
+    background-color: #ffc740;
+    border-color: #ffc740;
+    padding: 8px 30px;
+}
